@@ -1,9 +1,9 @@
 {
-    "name": "mklasen/enable-debug-mode",
+    "name": "mklasen/{plugin-slug}",
     "authors": [
         {
-            "name": "Marinus Klasen",
-            "email": "marinus@mklasen.nl"
+            "name": "{Plugin_Author}",
+            "email": "{Plugin_Author_Email}"
         }
     ],
     "require": {

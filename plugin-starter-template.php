@@ -1,17 +1,5 @@
 <?php
 
-
-/**
- * Replaces:
- * {Plugin_Name}
- * {Plugin_Author}
- * {current_year}
- * {Plugin_URL}
- * {plugin_slug}
- * {Plugin_Lowerdashed}
- */
-
-
 /**
  * {Plugin_Name}
  *
