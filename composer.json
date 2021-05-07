@@ -1,0 +1,12 @@
+{
+    "name": "mklasen/enable-debug-mode",
+    "authors": [
+        {
+            "name": "Marinus Klasen",
+            "email": "marinus@mklasen.nl"
+        }
+    ],
+    "require": {
+        "yahnis-elsts/plugin-update-checker": "^4.11"
+    }
+}
