@@ -1,5 +1,5 @@
 {
-    "name": "mklasen/{plugin-slug}",
+    "name": "mklasen/{plugin_slug}",
     "authors": [
         {
             "name": "{Plugin_Author}",
