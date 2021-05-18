@@ -39,7 +39,7 @@ class {Plugin_Lowerdashed} {
 	 *
 	 * @var string $api_url The API url.
 	 */
-	private $api_url = 'https://wpupdater.tmprly.com/wp-json/license-updater/v1/';
+	private $api_url = '{Website_URL}/wp-json/license-updater/v1/';
 
 	/**
 	 * PUC
