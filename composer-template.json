@@ -1,9 +1,9 @@
 {
-    "name": "getpremia/template",
+    "name": "mklasen/template",
     "authors": [
         {
-            "name": "Premia Template",
-            "email": "template@getpremia.com"
+            "name": "Getpremia",
+            "email": "info@getpremia.com"
         }
     ],
     "require": {
