@@ -39,7 +39,7 @@ class {Plugin_Lowerdashed} {
 	 *
 	 * @var string $api_url The API url.
 	 */
-	private $api_url = '{Website_URL}/wp-json/license-updater/v1/';
+	private $api_url = '{Website_URL}/wp-json/premia/v1/';
 
 	/**
 	 * PUC
@@ -100,15 +100,12 @@ class {Plugin_Lowerdashed} {
 							'license_key' => $license,
 							'site_url'    => get_site_url(),
 							'action'      => $action,
+							'plugin'      => $this->plugin_name,
 						),
 					)
 				);
 
 				$status = wp_remote_retrieve_response_code( $activate );
-
-				if ( $action === 'deactivate' ) {
-					$license = '';
-				}
 
 				if ( $status !== 200 && $action === 'activate' ) {
 					echo '<div class="notice notice-error"><p>Failed to activate license.</p></div>';
@@ -117,6 +114,7 @@ class {Plugin_Lowerdashed} {
 						$this->puc->checkForUpdates();
 						$message = __( 'License activated!', '{plugin_slug}' );
 					} else {
+						$license = '';
 						$message = __( 'License deactivated!', '{plugin_slug}' );
 					}
 
